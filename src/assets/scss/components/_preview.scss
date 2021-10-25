@@ -1,0 +1,21 @@
+.comic-preview {
+  &__layout {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+  }
+  &__img-container {
+    text-align: center;
+  }
+  &__rater {
+    cursor: pointer;
+    color: #bdbdbd;
+    transition: .2s all ease;
+    &:hover,
+    &--selected {
+      color: #ffb200;
+    }
+  }
+  &__date-publish {
+    font-size: 12px;
+  }
+}

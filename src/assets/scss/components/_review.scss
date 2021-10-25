@@ -1,0 +1,20 @@
+.comic-review {
+  &__item {
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+    &:hover {
+      background-color: #ededed;
+    }
+  }
+  &__item-rated {
+    color: #bdbdbd;
+    transition: .2s all ease;
+    &--selected {
+      color: #ffb200;
+    }
+  }
+  &__img-container {
+    overflow: hidden;
+    border: 2px solid #333;
+  }
+}

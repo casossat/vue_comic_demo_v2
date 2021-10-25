@@ -1,0 +1,18 @@
+.comic-comments {
+  &__item {
+    .item-information {
+      &__username {
+        font-size: 12px;
+      }
+      &__date-publish {
+        font-size: 10px;
+      }
+    }
+  }
+  &__item-rank {
+    font-size: 12px;
+    .icon {
+      cursor: pointer;
+    }
+  }
+}
